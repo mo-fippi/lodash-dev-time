@@ -1,0 +1,50 @@
+{
+    "name": "lodash-dev-time",
+    "version": "1.0.0",
+    "description": "A subset of lodash's main repository that we can use for unit testing",
+    "license": "MIT",
+    "scripts": {
+      "test": "jest --coverage lib/tests/*.test.js"
+    },
+    "dependencies": {
+      "jest": "^29.0.3",
+      "@babel/preset-env": "^7.19.1",
+      "babel-jest": "^29.0.3",
+      "lodash": "4.17.20"
+    },
+    "oldDependencies": {
+      "lodash._baseclone": "~4.5.0",
+      "lodash._basedifference": "~4.4.0",
+      "lodash._baseeach": "~4.1.0",
+      "lodash._baseeachright": "~4.1.0",
+      "lodash._basefilter": "~4.0.0",
+      "lodash._basefind": "~3.0.0",
+      "lodash._basefindindex": "~3.6.0",
+      "lodash._baseflatten": "~4.1.0",
+      "lodash._basefor": "~3.0.0",
+      "lodash._baseforright": "~4.0.0",
+      "lodash._baseintersection": "~4.5.0",
+      "lodash._baseiteratee": "~4.7.0",
+      "lodash._basepullall": "~4.6.0",
+      "lodash._basepullat": "~4.4.0",
+      "lodash._basereduce": "~3.0.0",
+      "lodash._baseslice": "~4.0.0",
+      "lodash._basesortedindexby": "~4.0.0",
+      "lodash._basesorteduniq": "~4.12.0",
+      "lodash._basetostring": "~4.12.0",
+      "lodash._baseuniq": "~4.5.0",
+      "lodash._basexor": "~4.5.0",
+      "lodash._reinterpolate": "~3.0.0",
+      "lodash._root": "~3.0.0",
+      "lodash._setcache": "~4.1.0",
+      "lodash._stack": "~4.1.0",
+      "lodash._stringtopath": "~4.7.0",
+      "lodash.isplainobject": "^4.0.0",
+      "lodash.keys": "^4.0.0",
+      "lodash.keysin": "^4.0.0",
+      "lodash.mergewith": "^4.0.0",
+      "lodash.rest": "^4.0.0",
+      "lodash.templatesettings": "^4.0.0",
+      "lodash.tostring": "^4.0.0"
+    }
+}

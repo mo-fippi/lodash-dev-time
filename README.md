@@ -4,7 +4,7 @@ This repo is a loose modification of the main `lodash` package. The intention of
 
 ## Folder Structure
 
-A subset of lodash methods have been selected and put into the `lib` folder for testsing. The remaining methods are all contained within the `no-test` folder, and may be moved into `lib/` if you want to expand your selection and write tests for other specific methods. 
+A subset of lodash methods have been selected and put into the `lib` folder for testing. The remaining methods are all contained within the `no-test` folder, and may be moved into `lib/` if you want to expand your selection and write tests for other specific methods. 
 
 
 `lib/tests/*` is where test files are saved and run from. NOTE: test files saved outside of this directory won't be run unless you manually run them or modify the `test` script in `package.json`.

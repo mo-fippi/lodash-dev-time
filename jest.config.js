@@ -8,7 +8,8 @@ module.exports = {
       'lib/3.complex/*',
       '!lib/.extras'
     ],
-    reporters: [
-      '<rootDir>/CoverageReporter.js'
+    coverageReporters: [
+      'text',
+      'json-summary',
     ]
 };

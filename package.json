@@ -5,7 +5,7 @@
     "description": "A subset of lodash's main repository that we can use for unit testing",
     "license": "MIT",
     "scripts": {
-        "test": "jest --coverage lib/tests/*.test.js"
+        "test": "jest --coverage lib/tests/*.test.js && node CoverageReporter.js"
     },
     "dependencies": {
         "@babel/preset-env": "^7.19.1",

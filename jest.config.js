@@ -5,5 +5,8 @@ module.exports = {
     collectCoverageFrom: [
       'lib/*.js',
       '!no-test/*'
+    ],
+    reporters: [
+      '<rootDir>/CoverageReporter.js'
     ]
 };

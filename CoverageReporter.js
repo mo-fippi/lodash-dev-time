@@ -7,4 +7,6 @@ const totalSum = ['lines', 'statements', 'functions', 'branches']
   .reduce((a, b) => a + b, 0);
 const avgCoverage = totalSum / 4;
 
+console.debug();
 console.debug(`🐸  Total Coverage: ${avgCoverage.toFixed(2)}%  🐸`);
+console.debug();

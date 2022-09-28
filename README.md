@@ -2,12 +2,19 @@
 
 This repo is a loose modification of the main `lodash` package. The intention of this repo is to serve as an exercist for learning how to write unit tests. 
 
+## Getting Started
+1. Link up with a partner
+2. Clone this repo (`git clone git@github.com:mo-fippi/lodash-dev-time.git`)
+3. Run `npm install`
+4. Run `npm run test`. Tests for `add.js` should pass, and there should be zero coverage for the rest
+5. Choose some methods inside `lib/` and write some tests for it!!!
+
 ## Folder Structure
 
-A subset of lodash methods have been selected and put into the `lib` folder for testing. The remaining methods are all contained within the `no-test` folder, and may be moved into `lib/` if you want to expand your selection and write tests for other specific methods. 
+A subset of lodash methods have been selected and put into various folders inside `lib` for testing. The remaining methods are all contained within the `.extras` folder, and may be tested if you really feel like it.
 
 
-`lib/tests/*` is where test files are saved and run from. NOTE: test files saved outside of this directory won't be run unless you manually run them or modify the `test` script in `package.json`.
+Note: Only tests located within `lib/tests/*` will be executed unless you manually run them or modify the `test` script in `package.json`.
 
 ## Writing & Running Unit Tests
 

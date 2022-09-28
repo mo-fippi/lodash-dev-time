@@ -3,8 +3,10 @@ module.exports = {
       "^.+\\.(js|jsx)$": "babel-jest"
     },
     collectCoverageFrom: [
-      'lib/*.js',
-      '!no-test/*'
+      'lib/1.simple/*',
+      'lib/2.intermediate/*',
+      'lib/3.complex/*',
+      '!lib/.extras'
     ],
     reporters: [
       '<rootDir>/CoverageReporter.js'
